@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./menu-toogle.js"></script>
+    <title>Products - RedStore</title>
+  </head>
+  <body>
+    <!----- header ----->
+    <div class="container">
+      <div class="navbar" id="Home">
+        <div class="logo">
+          <img src="./Images/logo.png" alt="logo" width="125px" />
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li>
+              <a href="/index.html">Home</a>
+              <a href="/products.html">Products</a>
+              <a href="">About</a>
+              <a href="">Contact</a>
+              <a href="">Account</a>
+            </li>
+          </ul>
+        </nav>
+        <img src="./Images/cart.png" width="25px" height="25px" />
+        <img src="./Images/menu.png" class="menu-icon" onclick="menutoogle()" />
+      </div>
+    </div>
+    <!----- Single Product Detail ----->
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="./Images/gallery-1.jpg" width="100%" id="ProductImg" />
+        </div>
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img src="Images/gallery-1.jpg" width="100%" class="SmallImg" />
+            </div>
+            <div class="small-img-col">
+              <img src="Images/gallery-2.jpg" width="100%" class="SmallImg" />
+            </div>
+            <div class="small-img-col">
+              <img src="Images/gallery-3.jpg" width="100%" class="SmallImg" />
+            </div>
+            <div class="small-img-col">
+              <img src="Images/gallery-4.jpg" width="100%" class="SmallImg" />
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <p>Home / T-Shirt</p>
+          <h1>Red Printed T-Shirt by HRX</h1>
+          <h4>$50.00</h4>
+          <select>
+            <option>Select Size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn">Add to Cart</a>
+          <h3>Product Details <span class="fa fa-indent"></span></h3>
+          <br />
+          <p>
+            Give your summer wardrobe a style upgrade with HRX Men's Active
+            T-Shirt. Team it with a pair of shorts for your morning workout or a
+            denims for an evening out with the guys.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!----- Title ----->
+    <div class="small-container">
+        <div class="row">
+            <div class="row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+            </div>
+        </div>
+    </div>
+    <!----- Products ----->
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="./Images/product-9.jpg" />
+          <h4>Roadster Watch</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa-solid fa-star fa-star-half"></span>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./Images/product-10.jpg" />
+          <h4>Black & Red Joggers</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./Images/product-11.jpg" />
+          <h4>Roadster Silver Joggers</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-o" aria-hidden="true"></span>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./Images/product-12.jpg" />
+          <h4>Black Slim Fit Trouser</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa-solid fa-star fa-star-half"></span>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+    <!----- footer ----->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Andriod and ios mobile phones.</p>
+            <div class="app-logo">
+              <img src="./Images/play-store.png" />
+              <img src="./Images/app-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./Images/logo-white.png" />
+            <p>
+              Our purpose is to Sustainably Make the Pleasue and Benefits of
+              Sports Accessible to the many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4 join-us">
+            <h3>Join Us</h3>
+            <ul>
+              <li><a href="">Facebook</a></li>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">X(Twitter)</a></li>
+              <li><a href="">Discord</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2024 - RedStore</p>
+        <p class="copyright">Made by Afnan with &#129504; & &#10084;</p>
+      </div>
+    </div>
+    <!-----javascript ----->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./JavaScript/smooth_scrolling.js"></script>
+    <script src="./JavaScript/menu-toogle.js"></script>
+    <script src="./JavaScript/product_gallery.js"></script>
+  </body>
+</html>
