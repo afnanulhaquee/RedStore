@@ -501,6 +501,7 @@ td:last-child {
 th:last-child {
   text-align: right;
 }
+
 /* --- media query --- */
 
 @media only screen and (max-width: 800px) {
