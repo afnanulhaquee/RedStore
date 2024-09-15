@@ -686,4 +686,7 @@ form.btn:focus {
   .aligin-end {
     text-align: center;
   }
+  .container-image {
+    width: 26rem;
+  }
 }
