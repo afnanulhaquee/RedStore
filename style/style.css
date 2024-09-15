@@ -68,10 +68,16 @@ a {
   text-decoration: none;
   margin-right: 20px;
   color: #555;
+  font-size: 12px;
 }
 
 p {
   color: #555;
+  font-size: 15px;
+}
+
+li {
+  font-size: 13px;
 }
 
 .container {
@@ -146,7 +152,7 @@ p {
 }
 
 .small-container {
-  max-width: 1080px;
+  max-width: 1140px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -474,7 +480,6 @@ td input {
 
 td a {
   color: #ff523b;
-  font-size: 12px;
 }
 
 td img {
@@ -570,10 +575,6 @@ form.btn:focus {
   left: 0;
 }
 
-form a {
-  font-size: 12px;
-}
-
 #Indicator {
   width: 100px;
   border: none;
@@ -584,6 +585,34 @@ form a {
   transition: transform 1s ease-in-out;
 }
 
+.container-image {
+  width: 30rem;
+}
+
+.footer-paragraph {
+  width: 38rem;
+}
+
+.footer-h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.view-more-a {
+  margin: 0;
+}
+
+.footer-a {
+  margin: 0;
+  color: inherit;
+}
+
+.aligin-end {
+  text-align: end;
+}
+.margin-bottom-none {
+  margin-bottom: 0;
+}
 /* --- media query --- */
 
 @media only screen and (max-width: 800px) {
@@ -653,5 +682,11 @@ form a {
   }
   .cart-info p {
     display: none;
+  }
+  .aligin-end {
+    text-align: center;
+  }
+  .container-image {
+    width: 26rem;
   }
 }
