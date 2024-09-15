@@ -655,9 +655,6 @@ form.btn:focus {
   .cart-info p {
     display: none;
   }
-  .aligin-end {
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 600px) {
