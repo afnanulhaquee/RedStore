@@ -72,6 +72,11 @@ a {
 
 p {
   color: #555;
+  font-size: 15px;
+}
+
+li {
+  font-size: 13px;
 }
 
 .container {
@@ -584,6 +589,23 @@ form a {
   transition: transform 1s ease-in-out;
 }
 
+.container-image {
+  width: 30rem;
+}
+
+.footer-paragraph {
+  width: 38rem;
+}
+
+.footer-h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footer-a {
+  margin: 0;
+  color: inherit;
+}
 /* --- media query --- */
 
 @media only screen and (max-width: 800px) {
